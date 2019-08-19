@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be2d6886-ab0c-4bc9-9484-105e81341a08" name="Default Changelist" comment="adding new, create methods">
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/_messages.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/articles_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/articles_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/articles/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/articles/edit.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/articles/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/articles/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/articles/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/articles/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/pages/homepage.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/homepage.html.erb" afterDir="false" />
-    </list>
+    <list default="true" id="be2d6886-ab0c-4bc9-9484-105e81341a08" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +188,7 @@
       <workItem from="1566058754188" duration="4255000" />
       <workItem from="1566109498648" duration="15418000" />
       <workItem from="1566142890764" duration="3434000" />
-      <workItem from="1566199301959" duration="920000" />
+      <workItem from="1566199301959" duration="1164000" />
     </task>
     <task id="LOCAL‎00001" summary="my first db trail">
       <created>1566121399772</created>
@@ -217,7 +208,13 @@
       <option name="presentableId" value="LOCAL‎00003" />
       <updated>1566133382129</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL‎00004" summary="add partials and destroy action">
+      <created>1566200378759</created>
+      <option name="number" value="LOCAL‎00004" />
+      <option name="presentableId" value="LOCAL‎00004" />
+      <updated>1566200378759</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +237,8 @@
     <MESSAGE value="my first db trail" />
     <MESSAGE value="my first db trail, second commit" />
     <MESSAGE value="adding new, create methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding new, create methods" />
+    <MESSAGE value="add partials and destroy action" />
+    <option name="LAST_COMMIT_MESSAGE" value="add partials and destroy action" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

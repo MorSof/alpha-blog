@@ -1,133 +1,14 @@
 
-<!DOCTYPE html>
-<html>
-<head>
-  <%puts "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& Im in Home page view!! &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"%>
 
-  <title>My First Page</title>
-</head>
-<body>
-<h1>This is my first tag!!</h1>
-<h2>This is my first tag!!</h2>
-<h3>This is my first tag!!</h3>
-<!-- ------------------------------------------------------ -->
-<table border="1">
-  <thead>
-  <tr>
-    <th>Name</th>
-    <th>Age</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr>
-    <td>Mor</td>
-    <td>26</td>
-  </tr>
-  <tr>
-    <td>Lior</td>
-    <td>24</td>
-  </tr>
-  </tbody>
-</table>
+<%puts "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& Im in Home page view!! &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"%>
 
-<table border="1">
-  <thead>
-  <thead>
-  <tr>
-    <th>Image</th>
-    <th>Name</th>
-    <th>Evolve To</th>
-  </tr>
-  </thead>
-  </thead>
-  <tbody>
-  <tr>
-    <td>
-      <img width="100" img src="https://vignette.wikia.nocookie.net/pokemon/images/2/21/001Bulbasaur.png/revision/latest?cb=20140328190757">
-    </td>
-    <td>Ballbasor</td>
-    <td>
-      <a href="https://pokemon.fandom.com/wiki/Ivysaur">Ivysaur</a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img width="100" img src="https://vignette.wikia.nocookie.net/pokemon/images/7/73/004Charmander.png/revision/latest?cb=20140724195345">
-    </td>
-    <td>Charmander</td>
-    <td>
-      <a href="https://pokemon.fandom.com/wiki/Charmeleon">Charmeleon</a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img width="100" img src="https://vignette.wikia.nocookie.net/pokemon/images/3/39/007Squirtle.png/revision/latest?cb=20140328191525">
-    </td>
-    <td>Squirtel</td>
-    <td>
-      <a href="https://pokemon.fandom.com/wiki/Wartortle">Wartortle</a>
-    </td>
-  </tr>
-  </tbody>
-</table>
-<!-- ------------------------------------------------------ -->
-<img width="500" img src = "https://www.holidogtimes.com/wp-content/uploads/2017/12/corgi-raisons-fi.png">
-<!-- ------------------------------------------------------ -->
-<form action="https://www.wikipedia.org">
+<div class="center jumbotron">
+  <h1 class="display-4">ALPHA BLOG</h1>
+  <p class="lead">This is a simple blog, where you can add your articles to a huge articles data base.</p>
+  <hr class="my-4">
+  <%= link_to "Sign up now", "#", class: "btn btn-primary btn-lg" %>
+</div>
 
-  <label>
-    Email:
-    <input name="username" type="email" placeholder="email" required="">
-  </label>
 
-  <label for="password">Password:</label>
-  <input id="password" name="password" type="password" placeholder="password" required>
-  <label>
-    Color:
-    <input type="color" name="">
-  </label>
 
-  <p>Cats Or Dogs?</p>
-  <label for="dogs">Dogs:</label>
-  <input id="dogs" type="radio" name="petChoice"
-         value="DOGS">
-
-  <label for="cats">Cats:</label>
-  <input id="cats" type="radio" name="petChoice"
-         value="CATS">
-
-  <label>
-    checkBox
-    <input type="checkBox" name="">
-  </label>
-
-  <p>Whats your current mood?</p>
-  <select name="Mood">
-    <option value="happy">:)</option>
-    <option value="Sad">:(</option>
-    <option value="Natural">:|</option>
-  </select>
-  <p></p>
-  <textarea rows="10" cols="50"></textarea>
-
-  <button>Submit</button>
-</form>
-<!-- ------------------------------------------------------ -->
-<a href="http://www.google.com">Click me for google</a>
-<p></p>
-<a href="SecondPage.html">Click here for second page</a>
-<!-- ------------------------------------------------------ -->
-<!--<p>-->
-<!--  According to the Bible, King David conquered the city from the Jebusites and established it as the capital of the united kingdom of Israel, and his son, King Solomon, commissioned the building of the First Temple.[note 5] Modern scholars argue that Jews branched out of the Canaanite peoples and culture through the development of a distinct monolatrous — and later monotheistic — <b>religion</b> centered on El/Yahweh,[20][21][22] one of the Ancient Canaanite deities.<p> These foundational events, straddling the dawn of the 1st millennium BCE, assumed central symbolic importance for the Jewish people.[23][24] The sobriquet of holy city (עיר הקודש, transliterated 'ir haqodesh) was probably attached to Jerusalem in post-exilic times.</p>[25][26][27] The holiness of Jerusalem in Christianity, conserved in the Septuagint[28] which Christians adopted as their own authority,[29] was reinforced by the New Testament account of Jesus's crucifixion there. In Sunni Islam, Jerusalem is the third-holiest city, after Mecca and Medina.[30][31] In Islamic tradition, in 610 CE it became the first qibla, the focal point for Muslim prayer (salat),[32] and Muhammad made his Night Journey there ten years later, ascending to heaven where he speaks to God, according to the Quran.[33][34] As a result, despite having an area of only 0.9 square kilometres (0.35 sq mi),[35] the Old City is home to many sites of seminal religious importance, among them the Temple Mount with its Western Wall, Dome of the Rock and al-Aqsa Mosque, and the Church of the Holy Sepulchre. Outside the Old City stands the Garden Tomb.</p>-->
-<!-- ------------------------------------------------------ -->
-<ul>
-  <li>Red</li>
-  <li>Orange</li>
-  <li>yellow</li>
-</ul>
-<!-- ------------------------------------------------------ -->
-<%= link_to "Alpha-Blog" , articles_path %>| <%= link_to 'About', about_path%>
-
-</body>
-</html>
 

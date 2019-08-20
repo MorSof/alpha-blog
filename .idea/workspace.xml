@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be2d6886-ab0c-4bc9-9484-105e81341a08" name="Default Changelist" comment="" />
+    <list default="true" id="be2d6886-ab0c-4bc9-9484-105e81341a08" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/alpha-blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/alpha-blog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/articles_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/articles_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/pages_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/pages_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/article.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/article.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/articles/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/articles/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/articles/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/articles/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/articles/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/articles/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/articles/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/articles/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/about.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/about.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/homepage.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/homepage.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20190818071318_create_articles.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20190818071318_create_articles.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +78,13 @@
       <command value="רשןךד בםמדםך" />
       <command value="rails console" />
       <command value="rake routes" />
+      <command value="git push" />
+      <command value="patch version bump = updates to jquery-ujs, jquery-rails, and patch-level updates to jQuery " />
+      <command value="gem 'jquery-rails' " />
+      <command value="choco install yarn" />
+      <command value="install yarn" />
+      <command value="yarn install" />
+      <command value="bundle install --without production " />
     </option>
   </component>
   <component name="RunDashboard">
@@ -188,7 +217,8 @@
       <workItem from="1566058754188" duration="4255000" />
       <workItem from="1566109498648" duration="15418000" />
       <workItem from="1566142890764" duration="3434000" />
-      <workItem from="1566199301959" duration="1164000" />
+      <workItem from="1566199301959" duration="5558000" />
+      <workItem from="1566212875586" duration="8803000" />
     </task>
     <task id="LOCAL‎00001" summary="my first db trail">
       <created>1566121399772</created>
@@ -214,7 +244,13 @@
       <option name="presentableId" value="LOCAL‎00004" />
       <updated>1566200378759</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL‎00005" summary="add partials and destroy action">
+      <created>1566200473288</created>
+      <option name="number" value="LOCAL‎00005" />
+      <option name="presentableId" value="LOCAL‎00005" />
+      <updated>1566200473288</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,23 +276,9 @@
     <MESSAGE value="add partials and destroy action" />
     <option name="LAST_COMMIT_MESSAGE" value="add partials and destroy action" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/app/controllers/articles_controller.rb</url>
-          <line>72</line>
-          <properties a="-1">
-            <option name="block-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/alpha_blog@routes__alpha_blog.rcov" NAME="routes: alpha-blog Coverage Results" MODIFIED="1566144589122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="alpha-blog" />
-    <SUITE FILE_PATH="coverage/alpha_blog@rails_server.rcov" NAME="rails server Coverage Results" MODIFIED="1566199516755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="alpha-blog" />
+    <SUITE FILE_PATH="coverage/alpha_blog@rails_server.rcov" NAME="rails server Coverage Results" MODIFIED="1566292912646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="alpha-blog" />
     <SUITE FILE_PATH="coverage/alpha_blog@articles_controller.rcov" NAME="articles_controller Coverage Results" MODIFIED="1566029795440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/controllers" MODULE_NAME="alpha-blog" />
     <SUITE FILE_PATH="coverage/alpha_blog@pages_controller.rcov" NAME="pages_controller Coverage Results" MODIFIED="1566029812912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/controllers" MODULE_NAME="alpha-blog" />
     <SUITE FILE_PATH="coverage/alpha_blog@db_migrate.rcov" NAME="db:migrate Coverage Results" MODIFIED="1566029746064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="alpha-blog" />

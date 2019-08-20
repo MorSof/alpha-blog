@@ -12,7 +12,10 @@
 
 ActiveRecord::Schema.define(version: 2019_08_18_071318) do
 
-  create_table "articles", force: :cascade do |t|
+  puts "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& Im in Schema!! &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+
+
+             create_table "articles", force: :cascade do |t|
     t.string "title"
     t.text "description"
     t.datetime "created_at", null: false
